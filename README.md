@@ -4,8 +4,6 @@
 
 Problem that this script solves: Scope your Apps you want to push to this Smart Group and the user will not see multiple prompts to install	the App at enrollment. It waits until it sees that a user has accepted the VPP invitation then it pushes the app (hopefully silently) to the device. The script looks up mobile devices that have enrolled recently and checks to see if the user associated with the device has accepted the VPP invitation. You could scope this to all devices for the first run to get previously enrolled devices. Then scope it to the mobile device smart group described in requirements. Devices that are Push Ready can have Apps scoped to them with the push command.
 
-#Authored by Brad Schmidt on 3-10-2015											  							                                      		
-
 #Requirements
 JSS Components:
 Advanced user search ( Users that have associated with the VPP invitation)
